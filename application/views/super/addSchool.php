@@ -6,6 +6,7 @@
         <div class="main-container">
             <div class="container-fluid">
                 <div class="row gutter">
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><p><a href="<?php echo base_url('super/schools');?>" class="btn btn-danger btn-xs"><i class="fa fa-plus"></i> View School List</a></p></div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <div class="panel panel-yellow">
                             <div class="panel-heading">
@@ -123,44 +124,6 @@
                     </div>
 
 
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <div class="panel panel-grey">
-                            <div class="panel-heading">
-                                <h4>Delhi Public School (Girls Primary School)</h4></div>
-                            <div class="sale-board">
-                                <div class="img-type"><img src="<?php echo base_url('assets/img/user7.png');?>" alt="Stock"></div>
-
-                                <div class="scroll-widget spacer-sm">
-                                    <ul class="list-group no-margin">
-                                        <li class="list-group-item"> Address:  <span class="text-danger">F1, Sector-3, Noida, India</span></li>
-                                        <li class="list-group-item"></span> Email:  <span class="text-info">ordiusits@gmail.com</span></li>
-                                        <li class="list-group-item"> Website: <span class="text-success">www.ordiusits.com</span></li>
-                                        <li class="list-group-item"> Phone: <span class="text-info">+91 9718789479</span></li>
-                                        <li class="list-group-item"> School Admin:  <span class="text-info">DELADM001</span> <button type="button" class="btn btn-default btn-small"><i class="fa fa-eye"></i></button></li>
-                                        <li class="list-group-item"> <button type="button" class="btn btn-danger btn-small"><i class="fa fa-pencil"></i> Edit</button> <button type="button" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</button></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-grey">
-                            <div class="panel-heading">
-                                <h4>Delhi Public School</h4></div>
-                            <div class="sale-board">
-                                <div class="img-type"><img src="<?php echo base_url('assets/img/user7.png');?>" alt="Stock"></div>
-
-                                <div class="scroll-widget spacer-sm">
-                                    <ul class="list-group no-margin">
-                                        <li class="list-group-item"> Address:  <span class="text-danger">F1, Sector-3, Noida, India</span></li>
-                                        <li class="list-group-item"></span> Email:  <span class="text-info">ordiusits@gmail.com</span></li>
-                                        <li class="list-group-item"> Website: <span class="text-success">www.ordiusits.com</span></li>
-                                        <li class="list-group-item"> Phone: <span class="text-info">+91 9718789479</span></li>
-                                        <li class="list-group-item"> School Admin:  <span class="text-info">DELADM001</span></li>
-                                        <li class="list-group-item"> <button type="button" class="btn btn-danger btn-small"><i class="fa fa-pencil"></i> Edit</button> <button type="button" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</button></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
                           </div>
             </div>

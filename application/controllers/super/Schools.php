@@ -17,6 +17,15 @@ class Schools extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+
+	 public function index()
+	 {
+	 	$this->load->view('super/includes/header');
+	 	$this->load->view('super/includes/sidebar');
+	 	$this->load->view('super/includes/top_header');
+	 	$this->load->view('super/schools');
+	 	$this->load->view('super/includes/footer');
+	 }
 	public function add()
 	{
 		$this->load->view('super/includes/header');
