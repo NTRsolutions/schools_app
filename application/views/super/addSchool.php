@@ -2,7 +2,6 @@
         <div class="top-bar clearfix">
             <div class="page-title">
                 <h4>Master Admin</h4></div>
-
         </div>
         <div class="main-container">
             <div class="container-fluid">
