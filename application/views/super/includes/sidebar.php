@@ -97,7 +97,7 @@
                     <li><a href="<?php echo base_url('super/roles');?>">Roles</a></li>
                     <li><a href="<?php echo base_url('super/users');?>">Users</a></li>
                     <li><a href="wysiwyg-editor.html">Permissions</a></li>
-                    <li><a href="wysiwyg-editor.html">SMS/Notification Templates</a></li>
+                    <li><a href="<?php echo base_url('super/templates');?>">SMS/Notification Templates</a></li>
 
                     <li><a href="wysiwyg-editor.html">Reset Password</a></li>
                     <li><a href="wysiwyg-editor.html">Languages</a></li>
