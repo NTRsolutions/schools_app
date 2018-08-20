@@ -14,7 +14,7 @@
     <link href="<?php echo base_url('assets/css/main.css');?>" rel="stylesheet" media="screen">
     <link href="<?php echo base_url('assets/fonts/icomoon/icomoon.css');?>" rel="stylesheet">
 	<link rel="stylesheet" href="<?php echo base_url('assets/css/fullcalendar.css');?>">
-    <link href="<?php echo base_url('assets/fonts/icomoon/icomoon.css" rel="stylesheet');?>">
+    <link href="<?php echo base_url('assets/fonts/font-awesome.min.css" rel="stylesheet');?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/circliful/circliful.css');?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/flags/flag-icon-custom.css');?>">
 	<link rel="stylesheet" href="<?php echo base_url('assets/css/datatables/dataTables.bs.min.css');?>">
