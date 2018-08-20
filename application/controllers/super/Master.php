@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Roles extends CI_Controller {
+class Master extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -19,11 +19,11 @@ class Roles extends CI_Controller {
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
 	public function add()
-	{   
+	{
 		$this->load->view('super/includes/header');
 		$this->load->view('super/includes/sidebar');
 		$this->load->view('super/includes/top_header');
-		$this->load->view('super/addRoles');
+		$this->load->view('super/addMaster');
 		$this->load->view('super/includes/footer');
 	}
 }

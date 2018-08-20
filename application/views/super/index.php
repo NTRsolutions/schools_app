@@ -1,4 +1,3 @@
-
         <div class="top-bar clearfix">
             <div class="page-title">
                 <h4>Overview (Session: 2018-2019)</h4></div>
@@ -186,7 +185,7 @@
                                                 <td>2009/09/15</td>
                                                 <td>$205,500</td>
                                             </tr>
-                                           
+
                                         </tbody>
                                     </table>
                                 </div>
@@ -233,7 +232,7 @@
                             </div>
                         </div>
                     </div>
-					
+
                 </div>
                 <div class="row gutter">
                     <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
@@ -281,7 +280,7 @@
                         </div>
                     </div>
                 </div>
-				
+
 				<div class="row gutter">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="panel">
@@ -364,13 +363,12 @@
                                             <div class="body">Any chance to go out <span>trivial</span> example, which of us ever undertakes.</div>
                                         </div>
                                     </li>
-									
+
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-				
+
             </div>
         </div>
-       
