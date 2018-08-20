@@ -14,23 +14,14 @@
                             <div class="panel-body">
                                 <form method="post" action="" class="form-horizontal">
                                     <fieldset>
-                                      <div class="form-group col-lg-12">
-                                                              <label class="col-lg-3 control-label">Templet For</label>
-                                                              <div class="col-lg-9">
-                                                                  <select class="form-control" name="country">
-                                                                      <option value="">-- Select Template For --</option>
-                                                                      <option value="fr">Students</option>
-                                                                      <option value="fr">Parents</option>
-                                                                  </select>
-                                                              </div>
-                                                          </div>
+                                    
                                       <div class="form-group col-lg-12">
                                                               <label class="col-lg-3 control-label">Templet Type</label>
                                                               <div class="col-lg-9">
                                                                   <select class="form-control" name="country">
                                                                       <option value="">-- Select Template Type --</option>
-                                                                      <option value="fr">Girls Primary</option>
-                                                                      <option value="fr">Girls Secondry</option>
+                                                                      <option value="fr">SMS Template</option>
+                                                                      <option value="fr">Notification Templates</option>
                                                                   </select>
                                                               </div>
                                                           </div>

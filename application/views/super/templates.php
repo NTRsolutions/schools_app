@@ -16,7 +16,7 @@
                                 <thead>
                                     <tr>
                                         <th><input type="checkbox" value="None" id="check2" name="check"> All</th>
-                                        <th>Templet For</th>
+                                        
                                         <th>Templet Type</th>
                                         <th>Templet Title</th>
                                         <th>Content</th>
@@ -28,7 +28,7 @@
                                 <tbody>
                                     <tr>
                                       <td><input type="checkbox" value="None" id="check2" name="check"></td>
-                                      <td>Students</td>
+
                                       <td>SMS Templates</td>
                                       <td>Student Rules violations</td>
                                       <td>Dear Parents, Your Students has violate our school's rules. We would like to inform you to come school on Monday. Thank You, Director</td>
@@ -51,7 +51,7 @@
 
                                     <tr>
                                       <td><input type="checkbox" value="None" id="check2" name="check"></td>
-                                      <td>Parents</td>
+
                                       <td>SMS Template</td>
                                       <td>Student Rules violations</td>
                                       <td>Dear Parents, Your Students has violate our school's rules. We would like to inform you to come school on Monday. Thank You, Dean</td>
