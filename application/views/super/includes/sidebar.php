@@ -90,14 +90,16 @@
             <li><a href="gallery.html"><i class="icon-monochrome_photos"></i> <span class="menu-item">Gate Pass</span></a></li>
             <li><a href="#"><i class="icon-domain"></i> <span class="menu-item">Settings</span> <span class="down-arrow"></span></a>
                 <ul class="collapse">
-                    <li><a href="form-elements.html">Academic Year</a></li>
-                    <li><a href="<?php echo base_url('super/users');?>">Users</a></li>
-                    <li><a href="<?php echo base_url('super/roles');?>">Roles</a></li>
+
+                    <li><a href="<?php echo base_url('super/master/add');?>">Profile Settings</a></li>
+                    <li><a href="<?php echo base_url('super/academicyear');?>">Academic Year</a></li>
                     <li><a href="<?php echo base_url('super/schools');?>">School Settings</a></li>
-					          <li><a href="wysiwyg-editor.html">Permissions</a></li>
+                    <li><a href="<?php echo base_url('super/roles');?>">Roles</a></li>
+                    <li><a href="<?php echo base_url('super/users');?>">Users</a></li>
+                    <li><a href="wysiwyg-editor.html">Permissions</a></li>
                     <li><a href="wysiwyg-editor.html">Designations</a></li>
                     <li><a href="wysiwyg-editor.html">SMS/Notification Templates</a></li>
-                    <li><a href="<?php echo base_url('super/master/add');?>">Profile Settings</a></li>
+
                     <li><a href="wysiwyg-editor.html">Reset Password</a></li>
                     <li><a href="wysiwyg-editor.html">Languages</a></li>
                 </ul>
