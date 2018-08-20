@@ -1,4 +1,3 @@
-
         <div class="top-bar clearfix">
             <div class="page-title">
                 <h4>Roles</h4></div>
