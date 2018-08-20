@@ -25,5 +25,13 @@ class Schools extends CI_Controller {
 		$this->load->view('super/addSchool');
 		$this->load->view('super/includes/footer');
 	}
+	public function edit()
+	{
+		$this->load->view('super/includes/header');
+		$this->load->view('super/includes/sidebar');
+		$this->load->view('super/includes/top_header');
+		$this->load->view('super/editSchool');
+		$this->load->view('super/includes/footer');
+	}
 
 }
