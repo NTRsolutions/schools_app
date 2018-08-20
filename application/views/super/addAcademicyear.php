@@ -13,20 +13,17 @@
                     <div class="panel-body">
                         <form method="post" action="" class="form-horizontal">
                             <fieldset>
-                              <div class="form-group col-lg-12">
-                                                      <label class="col-lg-3 control-label">Select School</label>
-                                                      <div class="col-lg-9">
-                                                          <select class="form-control" name="country">
-                                                              <option value="">-- Select School --</option>
-                                                              <option value="fr">Girls Primary</option>
-                                                              <option value="fr">Girls Secondry</option>
-                                                      </select>
-                                  </div>
-                                </div>
                                 <div class="form-group col-lg-12">
-                                    <label class="col-lg-3 control-label">Role</label>
-                                    <div class="col-lg-9">
-                                        <input type="text" class="form-control" name="name" placeholder="HR Management">
+                                    <label class="col-lg-5 control-label">From</label>
+                                    <div class="col-lg-7">
+                                        <input type="date" class="form-control" name="name" placeholder="Ex: 2018-2019">
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-lg-12">
+                                    <label class="col-lg-5 control-label">To</label>
+                                    <div class="col-lg-7">
+                                        <input type="date" class="form-control" name="name" placeholder="Ex: 2018-2019">
                                     </div>
                                 </div>
 

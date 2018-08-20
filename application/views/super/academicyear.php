@@ -39,14 +39,8 @@
                                       </td>
 
                                     </tr>
-
-
-
                                 </tbody>
-
-
-
-                                <tfoot>
+                                  <tfoot>
                                     <tr>
                                       <th colspan="5">
                                         <button type="button" class="btn btn-danger btn-xs"><i class="fa fa-ban"></i> Disable</button>
