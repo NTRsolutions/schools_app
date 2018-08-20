@@ -12,7 +12,7 @@
         </div>
         <ul class="menu clearfix">
             <li class="active selected"><a href="<?php echo base_url('super/dashboard');?>"><i class="icon-graphic_eq"></i> <span class="menu-item">Dashboards</span></a>
-                
+
             </li>
             <li><a href="#"><i class="icon-devices_other"></i> <span class="menu-item">Academic</span> <span class="down-arrow"></span></a>
                 <ul>
@@ -27,10 +27,10 @@
                     <li><a href="grid-layout.html">Holidays</a></li>
                     <li><a href="grid-layout.html">News and Events</a></li>
                     <li><a href="grid-layout.html">Notice Board</a></li>
-                   
+
                 </ul>
             </li>
-			
+
 			 <li><a href="#"><i class="icon-shopping_basket"></i> <span class="menu-item">Students</span> <span class="down-arrow"></span></a>
                 <ul class="collapse">
                     <li><a href="calendar.html">Students</a></li>
@@ -46,8 +46,8 @@
                     <li><a href="graphs.html">Students</a></li>
                     <li><a href="google-graphs.html">Other Employees</a></li>
                     <li><a href="google-graphs.html">Attendance Reports</a></li>
-					
-                    
+
+
                 </ul>
             </li>
 			 <li><a href="#"><i class="icon-shopping_basket"></i> <span class="menu-item">Accounts</span> <span class="down-arrow"></span></a>
@@ -67,7 +67,7 @@
                     <li><a href="invoice.html">Interviews</a></li>
                 </ul>
             </li>
-           
+
             <li><a href="#"><i class="icon-shopping_basket"></i> <span class="menu-item">Notifications</span> <span class="down-arrow"></span></a>
                 <ul class="collapse">
                     <li><a href="calendar.html">Students</a></li>
@@ -96,11 +96,11 @@
 					 <li><a href="wysiwyg-editor.html">Permissions</a></li>
                     <li><a href="wysiwyg-editor.html">Designations</a></li>
                     <li><a href="wysiwyg-editor.html">SMS/Notification Templates</a></li>
-                    <li><a href="wysiwyg-editor.html">Profile Settings</a></li>
+                    <li><a href="<?php echo base_url('super/master/add');?>">Profile Settings</a></li>
                     <li><a href="wysiwyg-editor.html">Reset Password</a></li>
                     <li><a href="wysiwyg-editor.html">Languages</a></li>
                 </ul>
             </li>
-            
+
         </ul>
     </div>

@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Master extends CI_Controller {
+class Schools extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -23,15 +23,8 @@ class Master extends CI_Controller {
 		$this->load->view('super/includes/header');
 		$this->load->view('super/includes/sidebar');
 		$this->load->view('super/includes/top_header');
-		$this->load->view('super/addMaster');
+		$this->load->view('super/addSchool');
 		$this->load->view('super/includes/footer');
 	}
-	public function view()
-	{
-		$this->load->view('super/includes/header');
-		$this->load->view('super/includes/sidebar');
-		$this->load->view('super/includes/top_header');
-		$this->load->view('super/viewMaster');
-		$this->load->view('super/includes/footer');
-	}
+
 }
