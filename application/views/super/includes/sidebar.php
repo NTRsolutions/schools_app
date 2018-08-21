@@ -22,10 +22,10 @@
                     <li><a href="<?php echo base_url('super/syllabus');?>">Syllabus</a></li>
                     <li><a href="<?php echo base_url('super/timetable');?>">Time Table</a></li>
                     <li><a href="<?php echo base_url('super/assignments');?>">Assignments</a></li>
-                    <li><a href="grid-layout.html">Important Links</a></li>
-                    <li><a href="grid-layout.html">Holidays</a></li>
-                    <li><a href="grid-layout.html">News and Events</a></li>
-                    <li><a href="grid-layout.html">Notice Board</a></li>
+                    <li><a href="<?php echo base_url('super/importantlinks');?>">Important Links</a></li>
+                    <li><a href="<?php echo base_url('super/holidays');?>">Holidays</a></li>
+                    <li><a href="<?php echo base_url('super/events');?>">News and Events</a></li>
+                    <li><a href="<?php echo base_url('super/noticeboard');?>">Notice Board</a></li>
 
                 </ul>
             </li>
