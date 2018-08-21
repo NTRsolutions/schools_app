@@ -1,6 +1,6 @@
 <div class="top-bar clearfix">
     <div class="page-title">
-        <h4>Add Roles</h4></div>
+        <h4>Rest Password</h4></div>
 </div>
 <div class="main-container">
     <div class="container-fluid">
