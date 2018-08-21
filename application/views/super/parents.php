@@ -41,9 +41,9 @@
                                     <span class="switch-handle"></span></label>
                                   </td>
                                       <td>
+                                        <button type="button" class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i> </button>
                                          <button type="button" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> </button>
                                          <button type="button" class="btn btn-success btn-xs"><i class="fa fa-eye"></i> </button>
-                                         <button type="button" class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i> </button>
                                          <button type="button" class="btn btn-warning btn-xs"><i class="fa fa-bell"></i> Notify</button>
                                          <button type="button" class="btn btn-info btn-xs"><i class="fa fa-key"></i> Send Credentials</button>
 
@@ -60,9 +60,10 @@
                                       <td>ADMIN001</td>
                                       <td><label class="switch pull-right">
                                     <input type="checkbox" class="switch-input" checked="checked"> <span class="switch-label" data-on="On" data-off="Off"></span> <span class="switch-handle"></span></label></td>
-                                      <td>   <button type="button" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> </button>
+                                      <td>
+                                        <button type="button" class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i> </button>
+                                         <button type="button" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> </button>
                                        <button type="button" class="btn btn-success btn-xs"><i class="fa fa-eye"></i> </button>
-                                       <button type="button" class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i> </button
                                        <button type="button" class="btn btn-warning btn-xs"><i class="fa fa-bell"></i> Notify</button>
                                        <button type="button" class="btn btn-info btn-xs"><i class="fa fa-key"></i> Send Credentials</button></td>
 
@@ -76,9 +77,11 @@
                                       <td>ADMIN001</td>
                                       <td><label class="switch pull-right">
                                     <input type="checkbox" class="switch-input" checked="checked"> <span class="switch-label" data-on="On" data-off="Off"></span> <span class="switch-handle"></span></label></td>
-                                      <td>   <button type="button" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> </button>
+                                      <td>
+                                        <button type="button" class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i> </button>
+                                        <button type="button" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> </button>
                                        <button type="button" class="btn btn-success btn-xs"><i class="fa fa-eye"></i> </button>
-                                       <button type="button" class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i> </button
+
                                        <button type="button" class="btn btn-warning btn-xs"><i class="fa fa-bell"></i> Notify</button>
                                        <button type="button" class="btn btn-info btn-xs"><i class="fa fa-key"></i> Send Credentials</button></td>
 
@@ -93,8 +96,11 @@
                                         <button type="button" class="btn btn-danger btn-xs"><i class="fa fa-ban"></i> Disable</button>
                                         <button type="button" class="btn btn-success btn-xs"><i class="fa fa-flag"></i> Enable</button>
                                          <button type="button" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> Delete</button>
+                                         <button type="button" class="btn btn-success btn-xs"><i class="fa fa-file-excel-o"></i> Excel</button>
+                                         <button type="button" class="btn btn-default btn-xs"><i class="fa fa-file-pdf-o"></i> PDF</button>
                                          <button type="button" class="btn btn-warning btn-xs"><i class="fa fa-bell"></i> Send Notification</button>
-                                         <button type="button" class="btn btn-info btn-xs"><i class="fa fa-key"></i> Send Credentials</button></th>
+                                         <button type="button" class="btn btn-info btn-xs"><i class="fa fa-key"></i> Send Credentials</button>
+                                       </th>
 
                                     </tr>
                                 </tfoot>
