@@ -25,10 +25,10 @@
 	 <script src="<?php echo base_url('assets/js/rating/jquery.raty.js');?>"></script>
 	 <script src="<?php echo base_url('assets/js/custom-widgets.js');?>"></script>
     <script src="<?php echo base_url('assets/js/custom-events-cal.js');?>"></script>
-	
+
 	<script src="<?php echo base_url('assets/js/alertify/alertify.js');?>"></script>
     <script src="<?php echo base_url('assets/js/alertify/alertify-custom.js');?>"></script>
 	<script src="<?php echo base_url('assets/js/custom-notifications.js');?>"></script>
-	
+
 </body>
 </html>
