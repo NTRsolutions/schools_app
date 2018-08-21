@@ -6,7 +6,19 @@
     <div class="container-fluid">
         <div class="row gutter">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><p><a href="<?php echo base_url('super/classes/add');?>" class="btn btn-danger btn-xs"><i class="fa fa-plus"></i> Create New Class</a></p></div>
+          <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 pull-right"><div class="form-group has-feedback">
 
+                                            <div class="col-lg-6 pull-right">
+                                                <select class="form-control" name="country" data-bv-field="country">
+                                                    <option value="">-- Select School --</option>
+                                                    <option value="fr">DPS Delhi</option>
+                                                    <option value="de">SMP, bareilly</option>
+
+                                                </select><i class="form-control-feedback" data-bv-icon-for="country" style="display: none;"></i>
+                                            <small class="help-block" data-bv-validator="notEmpty" data-bv-for="country" data-bv-result="NOT_VALIDATED" style="display: none;">The country is required and can't be empty</small></div>
+                                          </div></div>
+
+                                        <div class="clearfix"></div> <br>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="panel panel-blue">
                     <div class="panel-heading">
