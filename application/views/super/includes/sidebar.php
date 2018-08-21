@@ -20,8 +20,7 @@
                     <li><a href="<?php echo base_url('super/sections');?>">Section</a></li>
                     <li><a href="<?php echo base_url('super/subjects');?>">Subjects</a></li>
                     <li><a href="<?php echo base_url('super/syllabus');?>">Syllabus</a></li>
-                    <li><a href="layout-sidebar.html">Study Materials</a></li>
-                    <li><a href="grid-layout.html">Time Table</a></li>
+                    <li><a href="<?php echo base_url('super/timetable');?>">Time Table</a></li>
                     <li><a href="grid-layout.html">Assignments</a></li>
                     <li><a href="grid-layout.html">Important Links</a></li>
                     <li><a href="grid-layout.html">Holidays</a></li>
