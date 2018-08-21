@@ -16,7 +16,7 @@
             </li>
             <li><a href="#"><i class="icon-devices_other"></i> <span class="menu-item">Academic</span> <span class="down-arrow"></span></a>
                 <ul>
-                    <li><a href="custom-drag.html">Class</a></li>
+                    <li><a href="<?php echo base_url('super/classes');?>">Class</a></li>
                     <li><a href="default.html">Section</a></li>
                     <li><a href="offcanvas-layout.html">Subjects</a></li>
                     <li><a href="layout-sidebar.html">Syllabus</a></li>
