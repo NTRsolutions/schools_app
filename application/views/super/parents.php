@@ -17,7 +17,7 @@
                                     <tr>
                                         <th><input type="checkbox" value="None" id="check2" name="check"> All</th>
                                         <th>Gaurdian Name</th>
-                                        
+
                                         <th>Email Id</th>
                                         <th>Phone</th>
                                         <th>Status</th>
