@@ -37,7 +37,7 @@
                     <li><a href="pricing.html">Students Performance</a></li>
                 </ul>
             </li>
-            <li><a href="timeline.html"><i class="icon-timeline"></i> <span class="menu-item">Parents</span></a></li>
+            <li><a href="<?php echo base_url('super/parents');?>"><i class="icon-timeline"></i> <span class="menu-item">Parents</span></a></li>
             <li><a href="email.html"><i class="icon-av_timer"></i> <span class="menu-item">Teachers</span></a></li>
             <li><a href="#"><i class="icon-pie_chart_outlined"></i> <span class="menu-item">Attendance</span> <span class="down-arrow"></span></a>
                 <ul>
