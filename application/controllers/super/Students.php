@@ -15,7 +15,7 @@ class Students extends CI_Controller {
 		$this->load->view('super/includes/header');
 		$this->load->view('super/includes/sidebar');
 		$this->load->view('super/includes/top_header');
-		$this->load->view('super/addStudent');
+		$this->load->view('super/addStudents');
 		$this->load->view('super/includes/footer');
 	}
 	public function view()

@@ -43,7 +43,7 @@
                                                             <li class="active"><a href="#all" data-toggle="tab">All</a></li>
                                                             <li class=""><a href="#one" data-toggle="tab">Section A</a></li>
                                                             <li><a href="#three" data-toggle="tab">Section B</a></li>
-                                                            
+
                                                         </ul>
                                                         <div class="tab-content no-margin">
                                                             <div class="tab-pane active" id="all">
@@ -82,6 +82,7 @@
                                                                        <button type="button" class="btn btn-success btn-xs" title="View Student Profile"><i class="fa fa-eye"></i> </button>
                                                                        <button type="button" class="btn btn-warning btn-xs" title="Send Notification"><i class="fa fa-bell"></i> </button>
                                                                        <button type="button" class="btn btn-info btn-xs"><i class="fa fa-key" title="Send Credentials on his mobile"></i> </button>
+                                                                       <button type="button" class="btn btn-primary btn-xs"><i class="fa fa-mobile" title="Send SMS"></i> </button>
 
                                                                      </td>
                                                                               </tr>
@@ -103,6 +104,7 @@
                                                                        <button type="button" class="btn btn-success btn-xs" title="View Student Profile"><i class="fa fa-eye"></i> </button>
                                                                        <button type="button" class="btn btn-warning btn-xs" title="Send Notification"><i class="fa fa-bell"></i> </button>
                                                                        <button type="button" class="btn btn-info btn-xs"><i class="fa fa-key" title="Send Credentials on his mobile"></i> </button>
+                                                                       <button type="button" class="btn btn-primary btn-xs"><i class="fa fa-mobile" title="Send SMS"></i> </button>
 
                                                                      </td>
                                                                               </tr>
@@ -123,7 +125,7 @@
                                                                        <button type="button" class="btn btn-success btn-xs" title="View Student Profile"><i class="fa fa-eye"></i> </button>
                                                                        <button type="button" class="btn btn-warning btn-xs" title="Send Notification"><i class="fa fa-bell"></i> </button>
                                                                        <button type="button" class="btn btn-info btn-xs"><i class="fa fa-key" title="Send Credentials on his mobile"></i> </button>
-
+                                                                       <button type="button" class="btn btn-primary btn-xs"><i class="fa fa-mobile" title="Send SMS"></i> </button>
                                                                      </td>
                                                                               </tr>
 
@@ -134,14 +136,15 @@
 
                                                                           <tfoot>
                                                                               <tr>
-                                                                                <th colspan="5">
+                                                                                <th colspan="9">
                                                                                   <button type="button" class="btn btn-danger btn-xs"><i class="fa fa-ban"></i> Disable</button>
                                                                                   <button type="button" class="btn btn-success btn-xs"><i class="fa fa-flag"></i> Enable</button>
                                                                                    <button type="button" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> Delete</button>
-                                                                                   <button type="button" class="btn btn-success btn-xs"><i class="fa fa-file-excel-o"></i> Excel</button>
-                                                                                   <button type="button" class="btn btn-default btn-xs"><i class="fa fa-file-pdf-o"></i> PDF</button>
+
                                                                                    <button type="button" class="btn btn-warning btn-xs"><i class="fa fa-bell"></i> Send Notification</button>
-                                                                                   <button type="button" class="btn btn-info btn-xs"><i class="fa fa-key"></i> Send Credentials</button></th>
+                                                                                   <button type="button" class="btn btn-info btn-xs"><i class="fa fa-key"></i> Send Credentials</button>
+                                                                                   <button type="button" class="btn btn-primary btn-xs"><i class="fa fa-key"></i> Send SMS</button>
+                                                                                 </th>
 
                                                                               </tr>
                                                                           </tfoot>
