@@ -1,13 +1,13 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-class Parents extends CI_Controller {
+class Teachers extends CI_Controller {
 
 	 public function index()
 	 {
 	 	$this->load->view('super/includes/header');
 	 	$this->load->view('super/includes/sidebar');
 	 	$this->load->view('super/includes/top_header');
-	 	$this->load->view('super/parents');
+	 	$this->load->view('super/teachers');
 	 	$this->load->view('super/includes/footer');
 	 }
 	public function add()
@@ -15,7 +15,7 @@ class Parents extends CI_Controller {
 		$this->load->view('super/includes/header');
 		$this->load->view('super/includes/sidebar');
 		$this->load->view('super/includes/top_header');
-		$this->load->view('super/addParents');
+		$this->load->view('super/addTeachers');
 		$this->load->view('super/includes/footer');
 	}
 	public function view()
@@ -23,7 +23,7 @@ class Parents extends CI_Controller {
 		$this->load->view('super/includes/header');
 		$this->load->view('super/includes/sidebar');
 		$this->load->view('super/includes/top_header');
-		$this->load->view('super/viewParent');
+		$this->load->view('super/viewTeacher');
 		$this->load->view('super/includes/footer');
 	}
 }
