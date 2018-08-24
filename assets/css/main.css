@@ -11,6 +11,14 @@ ul.progress-stats li {
     -moz-transition: All .5s ease;
     -ms-transition: All .5s ease
 }
+thead{
+  color: white;
+    background-color: #076582;
+}
+tfoot{
+  color: white;
+    background-color: #fffaf1;
+}
 
 @font-face {
     font-family: 'Open Sans';
