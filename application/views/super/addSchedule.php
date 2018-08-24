@@ -6,7 +6,7 @@
     <div class="container-fluid">
         <div class="row gutter">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><p><a href="<?php echo base_url('super/timetable');?>" class="btn btn-danger"><i class="fa fa-eye"></i> View Timetable</a></p></div>
-            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="panel panel-yellow">
                     <div class="panel-heading">
                         <h4>Create New Schedule</h4></div>
