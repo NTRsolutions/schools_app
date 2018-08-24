@@ -6,7 +6,7 @@
     <div class="container-fluid">
         <div class="row gutter">
             <div class="col-lg-6">
-                <a href="<?php echo base_url('super/attendance');?>" class="btn btn-danger pull-left"><i class="fa fa-plus"></i> View Attendance</a>
+                <a href="<?php echo base_url('super/studentAttendance');?>" class="btn btn-danger pull-left"><i class="fa fa-history"></i> Attendance Log</a>
 
                 <div class="clearfix"></div>
                 <br>
@@ -48,114 +48,136 @@
                         <h4>Students List</h4></div>
                     <div class="panel-body">
                         <div class="table-responsive">
-                            <table class="table table-striped table-bordered no-margin" cellspacing="0" width="100%">
+                            <table class="table table-striped table-bordered no-margin attendance" cellspacing="0" width="100%">
                                 <thead class="">
                                     <tr>
-                                        <th>#</th>
-                                        <th>Name</th>
-
-                                        <th>Roll No.</th>
-                                        <th>Mobile</th>
-                                        <th>Email Id</th>
-                                        <th>
-                                                Present
-                                                <br>
-                                                <input type="radio" value="None" name="check">
-                                        </th>
-                                        <th>
-                                                Absent
-                                                <br>
-                                                <input type="radio" value="None" name="check">
-                                        </th>
-                                        <th>
-                                                Late
-                                                <br>
-                                                <input type="radio" value="None" name="check">
-
-                                        </th>
-                                        <th>
-
-                                                Leave
-                                                <br>
-                                                <input type="radio" value="None" name="check">
-
-                                        </th>
-
-                                        <th>Reason</th>
-
+                                      <th>#</th>
+                                      <th>Name</th>
+                                      <th>Class</th>
+                                      <th>Section</th>
+                                      <th>Status</th>
+                                      <th>Type</th>
+                                      <th>Subject</th>
+                                      <th>Reason</th>
                                     </tr>
                                 </thead>
                                 <tbody>
+                                  <tr>
+                                      <td>1</td>
+                                      <td>Lavish Gangwar</td>
+                                      <td>Two</td>
+                                      <td>A</td>
+                                      <td>
+                                        <select class="" name="country">
+                                            <option value="">Absent</option>
+                                            <option value="fr">Present</option>
+                                            <option value="de">Late</option>
+                                            <option value="de">Leave</option>
+                                        </select>
+                                      </td>
+                                      <td>
+                                        <select class="" name="country">
+                                            <option value="">Whole Day</option>
+                                            <option value="fr">Half Day</option>
+                                            <option value="de">Subject</option>
+                                            <option value="de">Queue</option>
+                                        </select>
+                                      </td>
+                                      <td>
+                                        <select class="" name="country">
+                                            <option value="">All Subjects</option>
+                                            <option value="de">Mathematcis</option>
+                                            <option value="fr">English</option>
+                                        </select>
+                                      </td>
+                                      <td>
+                                        <select class="" name="country">
+                                            <option value="">Family Issue</option>
+                                            <option value="fr">Traffic Issue</option>
+                                            <option value="de">Health Problem</option>
+                                            <option value="de">Accedent Issue</option>
+                                        </select>
+                                      </td>
+
+                                  </tr>
+                                  <tr>
+                                      <td>2.</td>
+                                      <td>Rinku Vishwakarma</td>
+                                      <td>Two</td>
+                                      <td>A</td>
+                                      <td>
+                                        <select class="" name="country">
+                                            <option value="">Absent</option>
+                                            <option value="fr">Present</option>
+                                            <option value="de">Late</option>
+                                            <option value="de">Leave</option>
+                                        </select>
+                                      </td>
+                                      <td>
+                                        <select class="" name="country">
+                                            <option value="">Whole Day</option>
+                                            <option value="fr">Half Day</option>
+                                            <option value="de">Subject</option>
+                                            <option value="de">Queue</option>
+                                        </select>
+                                      </td>
+                                      <td>
+                                        <select class="" name="country">
+                                            <option value="">All Subjects</option>
+                                            <option value="de">Mathematcis</option>
+                                            <option value="fr">English</option>
+                                        </select>
+                                      </td>
+                                      <td>
+                                        <select class="" name="country">
+                                            <option value="">Family Issue</option>
+                                            <option value="fr">Traffic Issue</option>
+                                            <option value="de">Health Problem</option>
+                                            <option value="de">Accedent Issue</option>
+                                        </select>
+                                      </td>
+
+                                  </tr>
                                     <tr>
-                                        <td>1</td>
-                                        <td>Lavish Gangwar</td>
-                                        <td>22</td>
-                                        <td>+91 9718789479</td>
-                                        <td>lavishgangwar</td>
+                                        <td>3.</td>
+                                        <td>Rahul Sharma</td>
+                                        <td>Two</td>
+                                        <td>A</td>
                                         <td>
-                                            <input type="radio" value="None" name="check">
+                                          <select class="" name="country">
+                                              <option value="">Absent</option>
+                                              <option value="fr">Present</option>
+                                              <option value="de">Late</option>
+                                              <option value="de">Leave</option>
+                                          </select>
                                         </td>
                                         <td>
-                                            <input type="radio" value="None" name="check">
+                                          <select class="" name="country">
+                                              <option value="">Whole Day</option>
+                                              <option value="fr">Half Day</option>
+                                              <option value="de">Subject</option>
+                                              <option value="de">Queue</option>
+                                          </select>
                                         </td>
                                         <td>
-                                            <input type="radio" value="None" name="check">
+                                          <select class="" name="country">
+                                              <option value="">All Subjects</option>
+                                              <option value="de">Mathematcis</option>
+                                              <option value="fr">English</option>
+                                          </select>
                                         </td>
                                         <td>
-                                            <input type="radio" value="None" name="check">
-                                        </td>
-                                        <td>
-                                            <textarea name="name" class="form-control"></textarea>
+                                          <select class="" name="country">
+                                              <option value="">Family Issue</option>
+                                              <option value="fr">Traffic Issue</option>
+                                              <option value="de">Health Problem</option>
+                                              <option value="de">Accedent Issue</option>
+                                          </select>
                                         </td>
 
                                     </tr>
 
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Lavish Gangwar</td>
-                                        <td>22</td>
-                                        <td>+91 9718789479</td>
-                                        <td>lavishgangwar</td>
-                                        <td>
-                                            <input type="radio" value="None" name="check">
-                                        </td>
-                                        <td>
-                                            <input type="radio" value="None" name="check">
-                                        </td>
-                                        <td>
-                                            <input type="radio" value="None" name="check">
-                                        </td>
-                                        <td>
-                                            <input type="radio" value="None" name="check">
-                                        </td>
-                                        <td>
-                                            <textarea name="name" class="form-control"></textarea>
-                                        </td>
 
-                                    </tr>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Lavish Gangwar</td>
-                                        <td>22</td>
-                                        <td>+91 9718789479</td>
-                                        <td>lavishgangwar</td>
-                                        <td>
-                                            <input type="radio" value="None" name="check">
-                                        </td>
-                                        <td>
-                                            <input type="radio" value="None" name="check">
-                                        </td>
-                                        <td>
-                                            <input type="radio" value="None" name="check">
-                                        </td>
-                                        <td>
-                                            <input type="radio" value="None" name="check">
-                                        </td>
-                                        <td>
-                                            <textarea name="name" cols="30" class="form-control"></textarea>
-                                        </td>
-
-                                    </tr>
                                 </tbody>
 
                                 <tfoot>

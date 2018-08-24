@@ -19,6 +19,11 @@ tfoot{
   color: white;
     background-color: #fffaf1;
 }
+.attendance select{
+  border: 1px solid #dedddd;
+padding: 4px;
+height: 28px;
+}
 
 @font-face {
     font-family: 'Open Sans';
