@@ -14,29 +14,33 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
                 <div class="form-group">
 
-                    <div class="col-lg-3">
+                    <div class="col-lg-2">
                         <select class="form-control" name="country" data-bv-field="country">
-                            <option value="">-- Select School --</option>
+                            <option value="">-- School --</option>
                             <option value="fr">DPS Delhi</option>
                             <option value="de">SMP, bareilly</option>
                         </select>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-2">
                         <select class="form-control" name="country" data-bv-field="country">
-                            <option value="">-- Select Class --</option>
+                            <option value="">-- Class --</option>
                             <option value="fr">DPS Delhi</option>
                             <option value="de">SMP, bareilly</option>
                         </select>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-2">
                         <select class="form-control" name="country" data-bv-field="country">
-                            <option value="">-- Select Section --</option>
+                            <option value="">-- Section --</option>
                             <option value="fr">DPS Delhi</option>
                             <option value="de">SMP, bareilly</option>
                         </select>
                     </div>
                     <div class="col-lg-3">
                         <input type="date" class="form-control" name="username" data-bv-field="username" placeholder="DOB">
+                    </div>
+                    
+                    <div class="col-lg-3">
+                        <button type="submit" class="btn btn-info">Search</button>
                     </div>
                     <div class="clearfix"></div>
                 </div>

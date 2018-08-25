@@ -36,7 +36,7 @@
             <li><a href="#"><i class="icon-pie_chart_outlined"></i> <span class="menu-item">Attendance</span> <span class="down-arrow"></span></a>
                 <ul>
                     <li><a href="c3-graphs.html">Teachers</a></li>
-                    <li><a href="graphs.html">Students</a></li>
+                    <li><a href="<?php echo base_url('super/studentAttendance');?>">Students</a></li>
                     <li><a href="google-graphs.html">Other Employees</a></li>
                     <li><a href="google-graphs.html">Attendance Reports</a></li>
 
