@@ -35,14 +35,23 @@
             <li><a href="<?php echo base_url('super/teachers');?>"><i class="icon-av_timer"></i> <span class="menu-item">Teachers</span></a></li>
             <li><a href="#"><i class="icon-pie_chart_outlined"></i> <span class="menu-item">Attendance</span> <span class="down-arrow"></span></a>
                 <ul>
-                    <li><a href="c3-graphs.html">Teachers</a></li>
+                    <li><a href="<?php echo base_url('super/teacherAttendance');?>">Teachers</a></li>
                     <li><a href="<?php echo base_url('super/studentAttendance');?>">Students</a></li>
-                    <li><a href="google-graphs.html">Other Employees</a></li>
-                    <li><a href="google-graphs.html">Attendance Reports</a></li>
+                    <li><a href="<?php echo base_url('super/employeeAttendance');?>">Other Employees</a></li>
+                    <li><a href="<?php echo base_url('super/attendaceReport');?>">Attendance Reports</a></li>
 
 
                 </ul>
             </li>
+            <li><a href="#"><i class="icon-shopping_basket"></i> <span class="menu-item">Leave Management</span> <span class="down-arrow"></span></a>
+                     <ul class="collapse">
+                         <li><a href="">Leave Types</a></li>
+                         <li><a href="invoice.html">Leave Request</a></li>
+                         <li><a href="invoice.html">Student</a></li>
+                         <li><a href="pricing.html">Teacher</a></li>
+                         <li><a href="pricing.html">Others</a></li>
+                     </ul>
+                </li>
 			 <li><a href="#"><i class="icon-shopping_basket"></i> <span class="menu-item">Accounts</span> <span class="down-arrow"></span></a>
                 <ul class="collapse">
                     <li><a href="calendar.html">Fees Collection</a></li>
