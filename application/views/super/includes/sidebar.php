@@ -53,7 +53,7 @@
                     <li><a href="pricing.html">Transaction Reports</a></li>
                 </ul>
             </li>
-			<li><a href="#"><i class="icon-shopping_basket"></i> <span class="menu-item">Human Resources</span> <span class="down-arrow"></span></a>
+			        <li><a href="#"><i class="icon-shopping_basket"></i> <span class="menu-item">Human Resources</span> <span class="down-arrow"></span></a>
                 <ul class="collapse">
                     <li><a href="calendar.html">Employees</a></li>
                     <li><a href="invoice.html">Salary</a></li>

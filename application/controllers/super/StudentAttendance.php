@@ -26,4 +26,12 @@ class StudentAttendance extends CI_Controller {
 		$this->load->view('super/viewStudent');
 		$this->load->view('super/includes/footer');
 	}
+	public function month()
+	{
+		$this->load->view('super/includes/header');
+		$this->load->view('super/includes/sidebar');
+		$this->load->view('super/includes/top_header');
+		$this->load->view('super/stuMonthlyAttend');
+		$this->load->view('super/includes/footer');
+	}
 }
